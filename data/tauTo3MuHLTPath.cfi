@@ -1,0 +1,2 @@
+module tauTo3MuHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
+replace tauTo3MuHLTFilter.HLTPaths ={"HLT1MuonIso","HLT1MuonNonIso","HLT2MuonNonIso","HLT2MuonIso"}

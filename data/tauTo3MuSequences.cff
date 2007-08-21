@@ -1,0 +1,6 @@
+include "HeavyFlavorAnalysis/Skimming/data/tauTo3MuHLTPath.cfi"
+include "HeavyFlavorAnalysis/Skimming/data/tauTo3MuFilter.cfi"
+
+sequence tauTo3MuSkim = {
+    tauTo3MuHLTFilter &  tauTo3MuFilter 
+  }

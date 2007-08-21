@@ -1,0 +1,3 @@
+include "HeavyFlavorAnalysis/Skimming/data/tauTo3MuSequences.cff"
+
+path tauTo3MuPath = {tauTo3MuSkim}

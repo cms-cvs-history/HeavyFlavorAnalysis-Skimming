@@ -1,0 +1,12 @@
+include "HeavyFlavorAnalysis/Skimming/data/tauTo3Mu_EventContent.cff"
+include "HeavyFlavorAnalysis/Skimming/data/AODSIMTauTo3Mu_EventContent.cff"
+
+module tauTo3MuOutputModule = PoolOutputModule {
+   untracked string fileName = "tauTo3Mu.root"
+   using AODSIMTauTo3MuEventContent
+   using tauTo3MuEventSelection
+   untracked PSet datasets = {
+      untracked string dataTier = "USER"
+      untracked string filterName = "tauTo3Mu"
+   }
+}        
