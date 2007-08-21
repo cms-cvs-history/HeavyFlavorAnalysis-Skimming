@@ -1,0 +1,7 @@
+block upsilonToMuMuEventSelection  = {
+  untracked PSet SelectEvents = {
+    vstring SelectEvents = {
+      "upsilonToMuMuHLTPath"
+    }
+  }
+}
