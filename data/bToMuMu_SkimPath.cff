@@ -1,0 +1,3 @@
+include "HeavyFlavorAnalysis/Skimming/data/bToMuMu_HLTPath.cfi"
+
+path bToMuMuHLTPath = { bToMuMuHLTFilter }

@@ -1,0 +1,7 @@
+block bToMuMuEventSelection  = {
+  untracked PSet SelectEvents = {
+    vstring SelectEvents = {
+      "bToMuMuHLTPath"
+    }
+  }
+}

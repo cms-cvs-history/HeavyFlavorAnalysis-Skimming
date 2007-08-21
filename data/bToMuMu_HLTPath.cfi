@@ -1,0 +1,2 @@
+module bToMuMuHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
+replace bToMuMuHLTFilter.HLTPaths = {"HLT2MuonNonIso","HLTBJPsiMuMu","HLT2MuonSameSign"}
