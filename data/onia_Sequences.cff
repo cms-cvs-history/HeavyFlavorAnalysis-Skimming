@@ -1,0 +1,5 @@
+include "HeavyFlavorAnalysis/Skimming/data/jpsiToMuMu_HLTPath.cfi"
+include "HeavyFlavorAnalysis/Skimming/data/upsilonToMuMu_HLTPath.cfi"
+include "HeavyFlavorAnalysis/Skimming/data/bToMuMu_HLTPath.cfi"
+
+

@@ -1,0 +1,63 @@
+#include "Configuration/EventContent/data/EventContent.cff"
+include "HeavyFlavorAnalysis/Skimming/data/onia_EventContent.cff"
+
+module jpsiToMuMuOutputModuleAODSIM = PoolOutputModule {
+  untracked string fileName = "jpsiToMuMu_AODSIM.root"
+  using AODSIMEventContent
+  using jpsiToMuMuEventSelection
+  untracked PSet datasets = {
+    untracked string dataTier = "AOD-SIM"
+    untracked string filterName = "jpsiToMuMu_AODSIM"
+  }
+}
+
+
+module jpsiToMuMuOutputModuleRECOSIM = PoolOutputModule {
+  untracked string fileName = "jpsiToMuMu_RECOSIM.root"
+  using RECOSIMEventContent
+  using jpsiToMuMuEventSelection
+  untracked PSet datasets = {
+    untracked string dataTier = "RECO-SIM"
+    untracked string filterName = "jpsiToMuMu_RECOSIM"
+  }
+}
+module upsilonToMuMuOutputModuleAODSIM = PoolOutputModule {
+  untracked string fileName = "upsilonToMuMu_AODSIM.root"
+  using AODSIMEventContent
+  using upsilonToMuMuEventSelection
+  untracked PSet datasets = {
+    untracked string dataTier = "AOD-SIM"
+    untracked string filterName = "upsilonToMuMu_AODSIM"
+  }
+}
+
+
+module upsilonToMuMuOutputModuleRECOSIM = PoolOutputModule {
+  untracked string fileName = "upsilonToMuMu_RECOSIM.root"
+  using RECOSIMEventContent
+  using upsilonToMuMuEventSelection
+  untracked PSet datasets = {
+    untracked string dataTier = "RECO-SIM"
+    untracked string filterName = "upsilonToMuMu_RECOSIM"
+  }
+}
+module bToMuMuOutputModuleAODSIM = PoolOutputModule {
+  untracked string fileName = "bToMuMu_AODSIM.root"
+  using AODSIMEventContent
+  using bToMuMuEventSelection
+  untracked PSet datasets = {
+    untracked string dataTier = "AOD-SIM"
+    untracked string filterName = "bToMuMu_AODSIM"
+  }
+}
+
+
+module bToMuMuOutputModuleRECOSIM = PoolOutputModule {
+  untracked string fileName = "bToMuMu_RECOSIM.root"
+  using RECOSIMEventContent
+  using bToMuMuEventSelection
+  untracked PSet datasets = {
+    untracked string dataTier = "RECO-SIM"
+    untracked string filterName = "bToMuMu_RECOSIM"
+  }
+}
