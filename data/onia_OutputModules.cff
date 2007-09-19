@@ -11,16 +11,16 @@ module jpsiToMuMuOutputModuleAODSIM = PoolOutputModule {
   }
 }
 
+#module jpsiToMuMuOutputModuleRECOSIM = PoolOutputModule {
+#  untracked string fileName = "jpsiToMuMu_RECOSIM.root"
+#  using RECOSIMEventContent
+#  using jpsiToMuMuEventSelection
+#  untracked PSet datasets = {
+#    untracked string dataTier = "RECO-SIM"
+#    untracked string filterName = "jpsiToMuMu_RECOSIM"
+#  }
+#}
 
-module jpsiToMuMuOutputModuleRECOSIM = PoolOutputModule {
-  untracked string fileName = "jpsiToMuMu_RECOSIM.root"
-  using RECOSIMEventContent
-  using jpsiToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "RECO-SIM"
-    untracked string filterName = "jpsiToMuMu_RECOSIM"
-  }
-}
 module upsilonToMuMuOutputModuleAODSIM = PoolOutputModule {
   untracked string fileName = "upsilonToMuMu_AODSIM.root"
   using AODSIMEventContent
@@ -31,16 +31,16 @@ module upsilonToMuMuOutputModuleAODSIM = PoolOutputModule {
   }
 }
 
+#module upsilonToMuMuOutputModuleRECOSIM = PoolOutputModule {
+#  untracked string fileName = "upsilonToMuMu_RECOSIM.root"
+#  using RECOSIMEventContent
+#  using upsilonToMuMuEventSelection
+#  untracked PSet datasets = {
+#    untracked string dataTier = "RECO-SIM"
+#    untracked string filterName = "upsilonToMuMu_RECOSIM"
+#  }
+#}
 
-module upsilonToMuMuOutputModuleRECOSIM = PoolOutputModule {
-  untracked string fileName = "upsilonToMuMu_RECOSIM.root"
-  using RECOSIMEventContent
-  using upsilonToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "RECO-SIM"
-    untracked string filterName = "upsilonToMuMu_RECOSIM"
-  }
-}
 module bToMuMuOutputModuleAODSIM = PoolOutputModule {
   untracked string fileName = "bToMuMu_AODSIM.root"
   using AODSIMEventContent
@@ -51,13 +51,12 @@ module bToMuMuOutputModuleAODSIM = PoolOutputModule {
   }
 }
 
-
-module bToMuMuOutputModuleRECOSIM = PoolOutputModule {
-  untracked string fileName = "bToMuMu_RECOSIM.root"
-  using RECOSIMEventContent
-  using bToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "RECO-SIM"
-    untracked string filterName = "bToMuMu_RECOSIM"
-  }
-}
+#module bToMuMuOutputModuleRECOSIM = PoolOutputModule {
+#  untracked string fileName = "bToMuMu_RECOSIM.root"
+#  using RECOSIMEventContent
+#  using bToMuMuEventSelection
+#  untracked PSet datasets = {
+#    untracked string dataTier = "RECO-SIM"
+#    untracked string filterName = "bToMuMu_RECOSIM"
+#  }
+#}
