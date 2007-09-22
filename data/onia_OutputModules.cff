@@ -6,7 +6,7 @@ module jpsiToMuMuOutputModuleAODSIM = PoolOutputModule {
   using AODSIMEventContent
   using jpsiToMuMuEventSelection
   untracked PSet datasets = {
-    untracked string dataTier = "AOD-SIM"
+    untracked string dataTier = "USER"
     untracked string filterName = "jpsiToMuMu_AODSIM"
   }
 }
@@ -16,7 +16,7 @@ module jpsiToMuMuOutputModuleAODSIM = PoolOutputModule {
 #  using RECOSIMEventContent
 #  using jpsiToMuMuEventSelection
 #  untracked PSet datasets = {
-#    untracked string dataTier = "RECO-SIM"
+#    untracked string dataTier = "USER"
 #    untracked string filterName = "jpsiToMuMu_RECOSIM"
 #  }
 #}
@@ -26,7 +26,7 @@ module upsilonToMuMuOutputModuleAODSIM = PoolOutputModule {
   using AODSIMEventContent
   using upsilonToMuMuEventSelection
   untracked PSet datasets = {
-    untracked string dataTier = "AOD-SIM"
+    untracked string dataTier = "USER"
     untracked string filterName = "upsilonToMuMu_AODSIM"
   }
 }
@@ -36,7 +36,7 @@ module upsilonToMuMuOutputModuleAODSIM = PoolOutputModule {
 #  using RECOSIMEventContent
 #  using upsilonToMuMuEventSelection
 #  untracked PSet datasets = {
-#    untracked string dataTier = "RECO-SIM"
+#    untracked string dataTier = "USER"
 #    untracked string filterName = "upsilonToMuMu_RECOSIM"
 #  }
 #}
@@ -46,7 +46,7 @@ module bToMuMuOutputModuleAODSIM = PoolOutputModule {
   using AODSIMEventContent
   using bToMuMuEventSelection
   untracked PSet datasets = {
-    untracked string dataTier = "AOD-SIM"
+    untracked string dataTier = "USER"
     untracked string filterName = "bToMuMu_AODSIM"
   }
 }
@@ -56,7 +56,7 @@ module bToMuMuOutputModuleAODSIM = PoolOutputModule {
 #  using RECOSIMEventContent
 #  using bToMuMuEventSelection
 #  untracked PSet datasets = {
-#    untracked string dataTier = "RECO-SIM"
+#    untracked string dataTier = "USER"
 #    untracked string filterName = "bToMuMu_RECOSIM"
 #  }
 #}
