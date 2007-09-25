@@ -2,62 +2,61 @@
 include "HeavyFlavorAnalysis/Skimming/data/onia_EventContent.cff"
 
 module jpsiToMuMuOutputModuleAODSIM = PoolOutputModule {
-  untracked string fileName = "jpsiToMuMu_AODSIM.root"
+  untracked string fileName = "jpsiToMuMu.root"
   using AODSIMEventContent
   using jpsiToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "AOD-SIM"
-    untracked string filterName = "jpsiToMuMu_AODSIM"
+  untracked PSet dataset = {
+    untracked string dataTier = "USER"
+    untracked string filterName = "jpsiToMuMu"
   }
 }
 
+#module jpsiToMuMuOutputModuleRECOSIM = PoolOutputModule {
+#  untracked string fileName = "jpsiToMuMu.root"
+#  using RECOSIMEventContent
+#  using jpsiToMuMuEventSelection
+#  untracked PSet datasets = {
+#    untracked string dataTier = "USER"
+#    untracked string filterName = "jpsiToMuMu"
+#  }
+#}
 
-module jpsiToMuMuOutputModuleRECOSIM = PoolOutputModule {
-  untracked string fileName = "jpsiToMuMu_RECOSIM.root"
-  using RECOSIMEventContent
-  using jpsiToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "RECO-SIM"
-    untracked string filterName = "jpsiToMuMu_RECOSIM"
-  }
-}
 module upsilonToMuMuOutputModuleAODSIM = PoolOutputModule {
-  untracked string fileName = "upsilonToMuMu_AODSIM.root"
+  untracked string fileName = "upsilonToMuMu.root"
   using AODSIMEventContent
   using upsilonToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "AOD-SIM"
-    untracked string filterName = "upsilonToMuMu_AODSIM"
+  untracked PSet dataset = {
+    untracked string dataTier = "USER"
+    untracked string filterName = "upsilonToMuMu"
   }
 }
 
+#module upsilonToMuMuOutputModuleRECOSIM = PoolOutputModule {
+#  untracked string fileName = "upsilonToMuMu.root"
+#  using RECOSIMEventContent
+#  using upsilonToMuMuEventSelection
+#  untracked PSet datasets = {
+#    untracked string dataTier = "USER"
+#    untracked string filterName = "upsilonToMuMu"
+#  }
+#}
 
-module upsilonToMuMuOutputModuleRECOSIM = PoolOutputModule {
-  untracked string fileName = "upsilonToMuMu_RECOSIM.root"
-  using RECOSIMEventContent
-  using upsilonToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "RECO-SIM"
-    untracked string filterName = "upsilonToMuMu_RECOSIM"
-  }
-}
 module bToMuMuOutputModuleAODSIM = PoolOutputModule {
-  untracked string fileName = "bToMuMu_AODSIM.root"
+  untracked string fileName = "bToMuMu.root"
   using AODSIMEventContent
   using bToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "AOD-SIM"
-    untracked string filterName = "bToMuMu_AODSIM"
+  untracked PSet dataset = {
+    untracked string dataTier = "USER"
+    untracked string filterName = "bToMuMu"
   }
 }
 
-
-module bToMuMuOutputModuleRECOSIM = PoolOutputModule {
-  untracked string fileName = "bToMuMu_RECOSIM.root"
-  using RECOSIMEventContent
-  using bToMuMuEventSelection
-  untracked PSet datasets = {
-    untracked string dataTier = "RECO-SIM"
-    untracked string filterName = "bToMuMu_RECOSIM"
-  }
-}
+#module bToMuMuOutputModuleRECOSIM = PoolOutputModule {
+#  untracked string fileName = "bToMuMu.root"
+#  using RECOSIMEventContent
+#  using bToMuMuEventSelection
+#  untracked PSet datasets = {
+#    untracked string dataTier = "USER"
+#    untracked string filterName = "bToMuMu"
+#  }
+#}
