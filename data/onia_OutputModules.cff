@@ -5,7 +5,7 @@ module jpsiToMuMuOutputModuleAODSIM = PoolOutputModule {
   untracked string fileName = "jpsiToMuMu.root"
   using AODSIMEventContent
   using jpsiToMuMuEventSelection
-  untracked PSet datasets = {
+  untracked PSet dataset = {
     untracked string dataTier = "USER"
     untracked string filterName = "jpsiToMuMu"
   }
@@ -25,7 +25,7 @@ module upsilonToMuMuOutputModuleAODSIM = PoolOutputModule {
   untracked string fileName = "upsilonToMuMu.root"
   using AODSIMEventContent
   using upsilonToMuMuEventSelection
-  untracked PSet datasets = {
+  untracked PSet dataset = {
     untracked string dataTier = "USER"
     untracked string filterName = "upsilonToMuMu"
   }
@@ -45,7 +45,7 @@ module bToMuMuOutputModuleAODSIM = PoolOutputModule {
   untracked string fileName = "bToMuMu.root"
   using AODSIMEventContent
   using bToMuMuEventSelection
-  untracked PSet datasets = {
+  untracked PSet dataset = {
     untracked string dataTier = "USER"
     untracked string filterName = "bToMuMu"
   }
