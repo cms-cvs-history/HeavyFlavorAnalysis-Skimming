@@ -1,0 +1,12 @@
+#include "Configuration/EventContent/data/EventContent.cff"
+include "HeavyFlavorAnalysis/Skimming/data/onia_EventContent.cff"
+
+module bToMuMuOutputModuleAODSIM = PoolOutputModule {
+  untracked string fileName = "bToMuMu.root"
+  using AODSIMEventContent
+  using bToMuMuEventSelection
+  untracked PSet dataset = {
+    untracked string dataTier = "USER"
+    untracked string filterName = "bToMuMu"
+  }
+}

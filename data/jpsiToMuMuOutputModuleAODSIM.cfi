@@ -1,0 +1,12 @@
+#include "Configuration/EventContent/data/EventContent.cff"
+include "HeavyFlavorAnalysis/Skimming/data/onia_EventContent.cff"
+
+module jpsiToMuMuOutputModuleAODSIM = PoolOutputModule {
+  untracked string fileName = "jpsiToMuMu.root"
+  using AODSIMEventContent
+  using jpsiToMuMuEventSelection
+  untracked PSet dataset = {
+    untracked string dataTier = "USER"
+    untracked string filterName = "jpsiToMuMu"
+  }
+}
