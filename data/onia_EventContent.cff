@@ -19,4 +19,4 @@ block  oniaMuMuEventContent = {
 }
 
 replace AODSIMEventContent.outputCommands += oniaMuMuEventContent.outputCommands
-replace AODSIMEventContent.outputCommands += bToMumuEventContent.outputCommands
+replace AODSIMEventContent.outputCommands += bToMuMuEventContent.outputCommands
