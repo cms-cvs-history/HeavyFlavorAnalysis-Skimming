@@ -1,2 +1,2 @@
 module upsilonToMuMuHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-replace upsilonToMuMuHLTFilter.HLTPaths = {"HLT2MuonUpsilon"}
+replace upsilonToMuMuHLTFilter.HLTPaths = {"HLT_DoubleMu3_Upsilon"}
