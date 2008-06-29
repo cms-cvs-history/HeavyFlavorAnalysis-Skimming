@@ -7,7 +7,7 @@ include "Configuration/EventContent/data/EventContent.cff"
 block  oniaMuMuEventContent = {
   untracked vstring outputCommands = {
     "keep *_source_*_*",
-    "keep recoGenParticles_genParticles_*_*",
+    "keep recoCandidatesOwned_genParticleCandidates_*_*",
     "keep recoTracks_ctfWithMaterialTracks_*_*",
     "keep recoTracks_globalMuons_*_*",
     "keep recoTracks_standAloneMuons_*_*",
@@ -19,4 +19,4 @@ block  oniaMuMuEventContent = {
 }
 
 replace AODSIMEventContent.outputCommands += oniaMuMuEventContent.outputCommands
-replace AODSIMEventContent.outputCommands += bToMuMuEventContent.outputCommands
+replace AODSIMEventContent.outputCommands += bToMumuEventContent.outputCommands
