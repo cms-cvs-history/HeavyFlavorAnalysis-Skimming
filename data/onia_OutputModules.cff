@@ -1,3 +1,0 @@
-include "HeavyFlavorAnalysis/Skimming/data/jpsiToMuMuOutputModuleAODSIM.cfi"
-include "HeavyFlavorAnalysis/Skimming/data/upsilonToMuMuOutputModuleAODSIM.cfi"
-include "HeavyFlavorAnalysis/Skimming/data/bToMuMuOutputModuleAODSIM.cfi"
