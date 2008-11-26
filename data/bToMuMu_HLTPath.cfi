@@ -1,2 +1,0 @@
-module bToMuMuHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-replace bToMuMuHLTFilter.HLTPaths = {"HLT_DoubleMu3","HLT_DoubleMu4_BJPsi","HLT_DoubleMu3_SameSign"}
