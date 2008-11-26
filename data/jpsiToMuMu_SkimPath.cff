@@ -1,3 +1,0 @@
-include "HeavyFlavorAnalysis/Skimming/data/jpsiToMuMu_HLTPath.cfi"
-
-path jpsiToMuMuHLTPath = { jpsiToMuMuHLTFilter }
