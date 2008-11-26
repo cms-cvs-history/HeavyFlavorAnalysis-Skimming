@@ -1,3 +1,0 @@
-include "HeavyFlavorAnalysis/Skimming/data/upsilonToMuMu_HLTPath.cfi"
-
-path upsilonToMuMuHLTPath = { upsilonToMuMuHLTFilter }
