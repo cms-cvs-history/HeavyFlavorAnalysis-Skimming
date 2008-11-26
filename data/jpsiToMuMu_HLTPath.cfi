@@ -1,2 +1,0 @@
-module jpsiToMuMuHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-replace jpsiToMuMuHLTFilter.HLTPaths = {"HLT_DoubleMu3_JPsi"}
