@@ -1,7 +1,0 @@
-block jpsiToMuMuEventSelection  = {
-  untracked PSet SelectEvents = {
-    vstring SelectEvents = {
-      "jpsiToMuMuHLTPath"
-    }
-  }
-}
